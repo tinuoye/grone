@@ -757,8 +757,8 @@ header .hero h2 {
   border: 2px solid #fff;
   color: #4A3AFF;
   background-color: #fff;
-  -webkit-box-shadow: 0px 5px 16px rgba(8, 15, 52, 0.09);
-          box-shadow: 0px 5px 16px rgba(8, 15, 52, 0.09);
+  -webkit-box-shadow: 0px 5px 16px rgba(8, 15, 52, 0.08);
+          box-shadow: 0px 5px 16px rgba(8, 15, 52, 0.08);
 }
 
 /* ................FOOTER SECTION..................*/
