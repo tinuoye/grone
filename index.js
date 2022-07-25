@@ -15,9 +15,16 @@ let mn4 = document.querySelector(".mn4");
 };
 
 close = () => {
-    menuBtn.style.right = "-100vw";
-    navBar.style.display = "block";
-    closeBtn.style.display = "none";
+    if (window.matchMedia("(max-width: 766px)").matches) {
+        menuBtn.style.right = "-100vw";
+        navBar.style.display = "block";
+        closeBtn.style.display = "none"; 
+    } else {
+        navBar.style.display = "none"
+        closeBtn.style.display = "none";
+        menuBtn.style.right = "0vw"; 
+    }
+    
 };
 
 navBar.addEventListener ("click", toggle);
