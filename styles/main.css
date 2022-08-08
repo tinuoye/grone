@@ -688,7 +688,7 @@ header .hero h2 {
   font-size: 45px;
   margin: 1.5rem 0 1rem;
   -webkit-text-stroke: 0.1px #7D00EB;
-  -webkit-text-fill-color: #F6EDFE;
+  color: #F6EDFE;
 }
 
 .convince-content-item p {
